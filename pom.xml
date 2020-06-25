@@ -17,14 +17,14 @@
         <dependency>
             <groupId>org.mule.weave</groupId>
             <artifactId>runtime</artifactId>
-            <version>2.2.0-SNAPSHOT</version>
+            <version>2.3.0</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.mule.weave</groupId>
             <artifactId>wtf</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -45,7 +45,7 @@
             <plugin>
                 <groupId>org.mule.weave</groupId>
                 <artifactId>weave-maven-plugin</artifactId>
-                <version>2.2.0-SNAPSHOT</version>
+                <version>2.3.0</version>
                 <configuration>
                     <logForkedProcessCommand>true</logForkedProcessCommand>
                 </configuration>
@@ -65,7 +65,8 @@
         <repository>
             <id>exchange</id>
             <name>Exchange</name>
-            <url>https://maven.anypoint.mulesoft.com/api/v1/organizations/142ebe1a-6e25-4670-9220-0cdce791f1b8/maven</url>
+            <url>https://maven.anypoint.mulesoft.com/api/v1/organizations/142ebe1a-6e25-4670-9220-0cdce791f1b8/maven
+            </url>
         </repository>
     </distributionManagement>
 
